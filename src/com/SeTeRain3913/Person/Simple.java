@@ -1,16 +1,17 @@
 package com.SeTeRain3913.Person;
 
 public class Simple {
-    public String name;
-    public int HP=100;
-    public void Say(String says){
-        System.out.println(name+":"+says);
+    private String name;
+    public Simple(){}
+    public Simple(String name){this.name=name;}
+
+    public void setName(String name) {
+        this.name = name;
     }
-    public void Dead(){
-        HP=0;
-        System.out.printf("(%s:已死亡)",name);
+    public void doSomething(String things){
+        System.out.printf("(%s:%s)\n",this.name,things);
     }
-    public void Do(String ds){
-        System.out.printf("(%s:%s)\n",name,ds);
+    public void say(String content){
+        System.out.printf("%s说:\"%s\"",this.name,content);
     }
 }
