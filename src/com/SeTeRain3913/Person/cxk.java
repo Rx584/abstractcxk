@@ -5,6 +5,7 @@ public class cxk extends Simple{
     private String ago="两年半";//坤坤的练习时长，写死的
     private String liking ="唱、跳、rap、篮球";//坤坤喜欢干的事情，写死的
     public cxk(){this.setName("蔡徐坤");}//构建函数 空构建函数， 其中定义了坤坤的名字因为是蔡徐坤专属类，所以是写死的
+    public cxk(String name){this.setName(name);}
     public void AboutMe(){
         this.say("全民制作人们大家好，我是练习时长"+this.ago+"的个人练习生"+this.getName()+"喜欢"+this.liking +"Music");
     }//坤坤的自我介绍
@@ -49,4 +50,20 @@ public class cxk extends Simple{
         this.moveHands(true,true,true,true);
         this.doSomething("离开了这个舞台");
     }//坤坤的结束语
+
+    public String getLiking() {
+        return liking;
+    }
+
+    public void setLiking(String liking) {
+        this.liking = liking;
+    }
+
+    public String getAgo() {
+        return ago;
+    }
+
+    public void setAgo(String ago) {
+        this.ago = ago;
+    }
 }
