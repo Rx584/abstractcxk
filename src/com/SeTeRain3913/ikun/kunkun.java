@@ -3,9 +3,17 @@ import com.SeTeRain3913.Person.cxk;
 
 public class kunkun {
     public static void main(String[] args) {
+        String[] Lyric = {"只因你太美 baby 只因你太美 baby",
+                "只因你实在是太美 baby 只因你太美 baby",
+                "迎面走来的你让我如此蠢蠢欲动",
+                "这种感觉我从未有",
+                "Cause I got a crush on you who you",
+                "你是我的我是你的谁",
+                "再多一眼看一眼就会爆炸",
+                "再近一点靠近点快被融化"};
         cxk kunkun = new cxk();
-        kunkun.name="蔡徐坤";
-        kunkun.Do("鞠躬");
+        kunkun.setName("蔡徐坤");
+        kunkun.doSomething("鞠躬");
         kunkun.AboutMe();
 
         kunkun.moveHands(true,true,false,false);
@@ -54,7 +62,7 @@ public class kunkun {
         kunkun.moveHands(true,true,true,true);
         kunkun.turn();
         kunkun.ironKun();
-        kunkun.sing(1);
+        kunkun.sing(Lyric[1]);
 
         kunkun.moveHands(true,true,true,true);
         kunkun.ironKun();
@@ -65,7 +73,7 @@ public class kunkun {
         kunkun.moveHands(true,true,true,true);
         kunkun.ironKun();
         kunkun.turn();
-        kunkun.sing(2);
+        kunkun.sing(Lyric[2]);
         kunkun.moveHands(true,true,true,true);
         kunkun.jump();
 
@@ -85,7 +93,7 @@ public class kunkun {
         kunkun.moveHands(true,true,true,true);
 
         kunkun.moveHands(true,true,true,true);
-        kunkun.sing(3);
+        kunkun.sing(Lyric[3]);
         kunkun.moveHands(true,true,true,true);
         kunkun.pantsDown();
 
@@ -104,10 +112,10 @@ public class kunkun {
 
         kunkun.moveHands(true,true,true,true);
         kunkun.pantsDown();
-        kunkun.sing(4);
+        kunkun.sing(Lyric[4]);
 
         kunkun.moveHands(true,true,false,false);
-        kunkun.sing(5);
+        kunkun.sing(Lyric[5]);
         kunkun.TheEnd();
     }
 }

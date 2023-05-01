@@ -15,6 +15,6 @@ public class Simple {
         System.out.printf("(%s:%s)\n",this.name,things);
     }
     public void say(String content){
-        System.out.printf("%s说:\"%s\"",this.name,content);
+        System.out.printf("%s说:\"%s\"\n",this.name,content);
     }
 }
