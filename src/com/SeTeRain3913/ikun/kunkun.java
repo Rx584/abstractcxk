@@ -10,12 +10,11 @@ public class kunkun {
                 "Cause I got a crush on you who you",
                 "你是我的我是你的谁",
                 "再多一眼看一眼就会爆炸",
-                "再近一点靠近点快被融化"};
+                "再近一点靠近点快被融化"};//《只因你太美》的部分歌词
         cxk kunkun = new cxk();
-        kunkun.setName("蔡徐坤");
         kunkun.doSomething("鞠躬");
         kunkun.AboutMe();
-
+        //以下为坤坤每一秒的动作
         kunkun.moveHands(true,true,false,false);
         kunkun.throwCoat();
 
