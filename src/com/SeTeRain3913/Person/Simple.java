@@ -8,6 +8,9 @@ public class Simple {
     public void setName(String name) {
         this.name = name;
     }
+    public String getName(){
+        return this.name;
+    }
     public void doSomething(String things){
         System.out.printf("(%s:%s)\n",this.name,things);
     }
