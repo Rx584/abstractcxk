@@ -1,3 +1,5 @@
+
+
 # 本来挺喜欢JavaOOP的
 
 ## 说明
@@ -60,3 +62,7 @@
 |`sing(String lyric)`|public|坤坤唱歌，参数lyric为唱出的歌词|void|
 |`playBasketball()`|public|坤坤打篮球|void|
 |`TheEnd()`|public|坤坤的结束语|void|
+
+## 协议
+
+本仓库使用 MIT Licence 进行开源
